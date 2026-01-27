@@ -1,20 +1,54 @@
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0px;
+    border:10px solid rgb(255, 0, 157);
 }
 
-.nav-icons{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid red;
+.nav-icons {
+    display:flex;
+    flex-direction: row;    
+    padding: 0.5rem;
+    border: 2px solid red;
+    width:200%;
 }
+
 .html5-icon{
-    display: flex;
-    padding:1rem;
+    margin-right:0.5rem;
     font-size: 1.8rem;
 }
 
 .html5-text{
+    display:flex;
     font-size: 1rem;
-    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid blue;
 }
+
+.elipsis{
+    display:flex;
+    align-items: center;
+    font-size: 35px;
+    border: 1px solid rgb(29, 128, 46);
+}
+.flex-icons{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icons {
+    margin-top: 1.5rem;
+    font-size:1.5rem;
+    border: 1px solid purple
+}
+
+
+.save {
+    
+    margin-left: auto;
+    border: 2px solid yellow;
+}
+
+
