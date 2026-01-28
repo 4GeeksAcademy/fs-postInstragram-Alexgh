@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content:center;
     align-items: center;
     margin: 0px;
 }
@@ -12,9 +13,9 @@ body{
     padding: 0.5rem;
     width:100%;
 }
-nav {
-    margin-top:1rem;
-    width:63vw;
+.navv {
+    margin-top:3rem;
+    width:24vw;
 }
 
 .html5-icon{
@@ -36,14 +37,27 @@ nav {
 .elipsis{
     display:flex;
     align-items: center;
-    font-size: 35px;
-    
+    font-size: 35px;    
+}
+
+img {
+    display:flex;
+    flex-direction:row;
+    justify-self: center;
+    align-items: center;
+    width:450px;
+    height:500px;
+}
+
+.flex-icons{
+    justify-self: center;
+    width:24vw;
 }
 
 .icons {
     display:flex;
     flex-direction:row;
-    margin-top: 0.5rem;
+    margin-top: 1.2rem;
     font-size:2rem;
     
 }
@@ -56,7 +70,16 @@ nav {
     
 }
 
+.liked {
+    justify-self:center;
+    width:24vw;
+    margin-top:1.5rem;
+}
+
 .lorem {
-    width:62.8vw;
+
+    justify-self:center;
+    margin:0;
+    width:24vw;
 }
 
