@@ -1,85 +1,79 @@
-body{
+.container{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    margin: 0px;
-}
-
-.nav-icons {
-    display:flex;
-    flex-direction: row;
-    justify-content:space-between; 
-    padding: 0.5rem;
-    width:100%;
-}
-.navv {
-    margin-top:3rem;
-    width:24vw;
-}
-
-.html5-icon{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right:0.2rem;
-    font-size: 2rem;
-    
-}
-
-.html5-text{
-    display:flex;
-    font-size: 1rem;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.elipsis{
-    display:flex;
-    align-items: center;
-    font-size: 35px;    
-}
-
-img {
-    display:flex;
-    flex-direction:row;
     justify-self: center;
-    align-items: center;
-    width:450px;
-    height:500px;
-}
-
-.flex-icons{
-    justify-self: center;
-    width:24vw;
+    margin-top: 2rem;
+    border:2px solid red;
+    width:30vw;
+    height:80vh;
 }
 
 .icons {
     display:flex;
     flex-direction:row;
-    margin-top: 1.2rem;
-    font-size:2rem;
-    
+    align-items: center;
+    justify-content: space-between;
+    border:2px solid yellow;
+    padding: 0.8rem;
 }
 
+.html-icon{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.html-text{
+    display:flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.rigo {
+    font-size:1rem;
+}
+
+.elipsis{
+    
+    font-size: 2rem;
+}
+
+img {
+    display:flex;
+    width: 30vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.like {
+    display:flex;
+    justify-content: space-between;
+    font-size:1.5rem;
+    border:2px solid green;
+    margin-top:0.5rem;
+}
+
+.like-icons{
+    display:flex;
+    flex-direction: row;
+    border:2px solid purple;
+}
 
 .save {
     display:flex;
-    flex-direction:row;
-    margin-left: auto;
-    
+    justify-content: space-between;
+    border:2px solid red;   
 }
 
-.liked {
-    justify-self:center;
-    width:24vw;
-    margin-top:1.5rem;
+.text{
+    font-size: 1rem;
+    border:2px solid purple;
 }
 
 .lorem {
-
-    justify-self:center;
-    margin:0;
-    width:24vw;
+    font-size: 1em;
+    border: 2px solid peru;
 }
 
