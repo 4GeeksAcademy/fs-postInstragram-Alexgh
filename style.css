@@ -52,7 +52,8 @@ img {
     justify-content: space-between;
     font-size:2rem;
     border:2px solid green;
-    margin-top:0.5rem;
+    margin-top:0.2rem;
+    padding:0.3rem;
 }
 
 .like-icons{
@@ -70,10 +71,16 @@ img {
 .text{
     font-size: 1rem;
     border:2px solid purple;
+    padding:0.5rem;
 }
 
 .lorem {
     font-size: 1em;
     border: 2px solid peru;
+    padding:0.5rem;
+}
+
+.yellow-border{
+    border:2px solid yellow;
 }
 
