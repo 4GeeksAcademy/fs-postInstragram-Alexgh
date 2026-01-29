@@ -50,7 +50,7 @@ img {
 .like {
     display:flex;
     justify-content: space-between;
-    font-size:1.5rem;
+    font-size:2rem;
     border:2px solid green;
     margin-top:0.5rem;
 }
